@@ -1,5 +1,12 @@
 // Initialisation of strings algorithm Z function
-// detailed review and proper examples can be seen on the link bewlow
+// here is what algorithm does:
+//   The method getArray() returns the array z of length string.length() where each element
+//   z[i] is the maximum number of characters for which string[0..z[i]-1] is the same as string[i..i+z[i]-1]
+//
+// example:
+//      for string="abcaabc" the z would be [7, 0, 0, 1, 3, 0, 0]
+//
+// Detailed review and more examples can be seen on the link below.
 //
 // Link of algorithm review: https://www.geeksforgeeks.org/z-algorithm-linear-time-pattern-searching-algorithm/
 package Strings;
